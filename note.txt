@@ -1,0 +1,7 @@
+Note:
+
+Day 1:
+    Create a client component ParentProviders to wrap all the context providers
+    Set up darkMode under tailwind.config.cs. This tells Tailwind to recognize the dark: variant.
+    Apply 'block' or 'hidden' to the navbar subcomponent for device responsiveness.
+    Update the css for Navbar.

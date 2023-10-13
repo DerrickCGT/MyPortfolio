@@ -43,9 +43,9 @@ const Navbar = () => {
         z-50 
         border-b
         sm:px-20
-        shadow
-        ${currentTheme === "dark" ? 'border-stone-600' : 'border-stone-200'}
-        ${currentTheme === "dark" ? "bg-stone-800" : "bg-white"})
+        dark:border-stone-600
+        dark:bg-stone-800
+        
       `}>
       <div className='md:flex md:items-center justify-between'>
         <div>
