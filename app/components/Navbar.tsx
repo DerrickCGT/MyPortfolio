@@ -52,7 +52,7 @@ const Navbar = () => {
         <div>
           <div className='flex items-center justify-between py-3'>
             <div className='md:py-5 md:block'>
-              <h2 className='text-2xl font-bold'>
+              <h2 className='text-2xl font-bold tracking-wider'>
                 Derrick Choong
               </h2>
             </div>
