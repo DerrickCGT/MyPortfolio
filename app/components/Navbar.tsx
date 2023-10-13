@@ -43,16 +43,15 @@ const Navbar = () => {
         z-50 
         border-b
         sm:px-20
-        shadow-lg
-        shadow-slate-400/50    
-        ${currentTheme === "dark" ? 'border-stone-600' : 'border-stone-300'}
-        ${currentTheme === "dark" ? "bg-black" : "bg-white"})
+        shadow
+        ${currentTheme === "dark" ? 'border-stone-600' : 'border-stone-200'}
+        ${currentTheme === "dark" ? "bg-stone-800" : "bg-white"})
       `}>
       <div className='md:flex md:items-center justify-between'>
         <div>
-          <div className='flex items-center justify-between py-3'>
+          <div className='flex items-center justify-between py-1'>
             <div className='md:py-5 md:block'>
-              <h2 className='text-2xl font-bold tracking-wider'>
+              <h2 className='text-2xl font-bold'>
                 Derrick Choong
               </h2>
             </div>
