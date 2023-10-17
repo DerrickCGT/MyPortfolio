@@ -21,8 +21,8 @@ const NAV_ITEMS: Array<NavItem> = [
     page: "about",
   },
   {
-    label: "Projects",
-    page: "projects",
+    label: "Portfolios",
+    page: "portfolio",
   },
 ]
 
@@ -87,7 +87,7 @@ const Navbar = () => {
                   activeClass="active"
                   spy={true}
                   smooth={true}
-                  offset={-50}
+                  offset={-100}
                   duration={500}
                   onClick={() => setNavbar(!navbar)}
                 >
