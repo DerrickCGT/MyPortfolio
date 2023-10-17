@@ -51,11 +51,13 @@ const Navbar = () => {
       <div className='md:flex md:items-center justify-between'>
         <div>
           <div className='flex items-center justify-between py-1'>
-            <div className='md:py-4 md:block'>
-              <h2 className='text-2xl font-bold'>
-                Derrick Choong
-              </h2>
-            </div>
+            <Link to="home" offset={-100}>
+              <div className='md:py-4 md:block cursor-pointer'>
+                <h2 className='text-2xl font-bold'>
+                  Derrick Choong
+                </h2>
+              </div>
+            </Link>
             <div className='md:hidden'>
               <button onClick={() => setNavbar(!navbar)}>
                 {navbar ? <IoMdClose size={25}/> : <IoMdMenu size={25} />}
@@ -82,7 +84,7 @@ const Navbar = () => {
                   key={idx}
                   to={item.page}
                   className={
-                    "block lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100"
+                    "block lg:inline-block cursor-pointer text-neutral-900  hover:text-neutral-500 dark:text-neutral-100"
                   }
                   activeClass="active"
                   spy={true}
@@ -106,7 +108,7 @@ const Navbar = () => {
                   <button 
                     onClick={() => setTheme("dark")}
                     className='bg-slate-100 p-2 rounded-xl'>
-                    <RiMoonFill size={25}/>
+                    <RiMoonFill size={25} color="black"/>
                   </button>
                 )
               }
