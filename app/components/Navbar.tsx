@@ -42,6 +42,7 @@ const Navbar = () => {
         top-0 
         z-50 
         border-b
+        bg-white
         sm:px-20
         dark:border-stone-600
         dark:bg-stone-800
@@ -50,7 +51,7 @@ const Navbar = () => {
       <div className='md:flex md:items-center justify-between'>
         <div>
           <div className='flex items-center justify-between py-1'>
-            <div className='md:py-5 md:block'>
+            <div className='md:py-4 md:block'>
               <h2 className='text-2xl font-bold'>
                 Derrick Choong
               </h2>
@@ -86,7 +87,7 @@ const Navbar = () => {
                   activeClass="active"
                   spy={true}
                   smooth={true}
-                  offset={-100}
+                  offset={-50}
                   duration={500}
                   onClick={() => setNavbar(!navbar)}
                 >
