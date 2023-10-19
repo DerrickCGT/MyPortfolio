@@ -17,24 +17,23 @@ const Hero = () => {
 				<div className='md:mt-2 md:w-3/5'>
 					<h1 className='font-bold text-4xl mt-6 md:text-6xl md:mt-0'>Hi, I&#39;m Derrick!</h1>
 					<p className='text-lg mt-4 mb-6 md:text-2xl'>
-						I am lalalala
-						<span className='font-semibold text-teal-600'>
-						software engineer	{" "}
+						I am a 
+						<span className='font-semibold text-teal-600  hover:text-teal-300'>
+						{" "} Software Developer	{" "}
 						</span>
-						based in perth, WA, working towards lalalalaa
-						sameple sameple sample
+						based in perth, WA. Driven by a passion to shape technology through innovation and entrepreneurial spirit.
 					</p>
 					<div className='flex justify-center items-center md:mr-16'>
 						<Link
-							to="projects"
+							to="portfolio"
 							className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded-lg shadow hover:bg-teal-700 cursor-pointer"
 							activeClass="active"
 							spy={true}
 							smooth={true}
 							offset={-100}
-							duration={500}
+							duration={800}
 						>
-							Projects
+							Portfolios
 						</Link>		
 					</div>
 				</div>

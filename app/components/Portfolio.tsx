@@ -23,10 +23,10 @@ const portfolios = [
     link: "https://github.com/DerrickCGT/",
   },
   {
-    name: "Portfolio 2",
+    name: "Web API",
     description:
       "Portfolio 2 description",
-    image: "/abc.png",
+    image: "/Coming_Soon.jpg",
     github: "https://github.com/DerrickCGT/",
     link: "https://github.com/DerrickCGT/",
   },

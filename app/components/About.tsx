@@ -28,33 +28,27 @@ const About = () => {
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
           <div className="md:w-1/2 ">
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
-              Get to know me!
+              A little bit about me...
             </h1>
             <p>
-              Hi, my name is Derrick and I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
+              I am a{" "}
+              <span className="font-bold">{" result-driven"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
-              based in Perth, WA.
+              <span className="font-bold">{" self-taught full stack"}</span> software developer
+              based in Perth, WA. After years as a Business Development and Project Manager in renewables, I&#39;ve gathered vast expertise. But it&#39;s in technology where my true passion lies, and I&#39;m driven to bring digital ideas to life.
             </p>
             <br />
             <p>
-              I graduated from Curtin University in 2013
-              with a BS in Computer Engineering and have been working in the
-              field ever since.
+            I earned my BChe in Chemical Engineering from Curtin University and am now pursuing a Diploma of Information Technology at South Metro Tafe. My plan is to delve deeper into Computer Science and secure in software development role.            
             </p>
             <br />
             <p>
-              I have a wide range of hobbies and passions 
+            My technical interests span across web development, data science, machine learning, UI/UX, and DevOps. Outside of work, I enjoy movies, gaming, travel, and trading. I&#39;m especially intrigued by the potential of the web3 space.
             </p>
             <br />
             <p>
-              I believe that you should{" "}
-              <span className="font-bold text-teal-500">
-                never stop growing
-              </span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
-              technology  🙂
+            <span className="font-bold text-teal-500">Life is fleeting, and pursuing a passion is invaluable.</span> {" "} I&#39;m grateful for the courage to pivot into a new industry and challenge myself. With an insatiable passion for technology and a constant drive to push boundaries, I am always on the lookout for fresh challenges and opportunities."
+              
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
