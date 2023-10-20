@@ -58,7 +58,7 @@ const About = () => {
             <br />
             <p>
             <span className="font-bold text-teal-600">Life is fleeting, and pursuing a passion is invaluable.</span> {" "} I&#39;m grateful for the courage to pivot into a tech and challenge myself. 
-            With an insatiable passion for technology and a unwavering drive to push boundaries, I am always on the lookout for fresh challenges and exciting opportunities."              
+            With an insatiable passion for technology and a unwavering drive to push boundaries, I am always on the lookout for fresh challenges and exciting opportunities.              
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
