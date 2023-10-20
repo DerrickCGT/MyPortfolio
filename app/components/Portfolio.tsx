@@ -17,7 +17,7 @@ const portfolios = [
   },
   {
     name: "Malin Astro App",
-    description: "Astro App, a C# project, features AstroClient, AstroServer, and AstroMath(DLL) components, demonstrating IPC and WCF for client-server communication with multilingual UI and theme customization.",
+    description: "Astro App, a C# .Net project, features AstroClient, AstroServer, and AstroMath(DLL) components, demonstrating IPC and WCF for client-server communication with multilingual UI and theme customization.",
     image: "/astroapp.png",
     github: "https://github.com/DerrickCGT/AstroApp",
     link: "https://github.com/DerrickCGT/AstroApp",
