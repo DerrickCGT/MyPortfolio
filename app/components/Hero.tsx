@@ -18,7 +18,7 @@ const Hero = () => {
 					<h1 className='font-bold text-4xl mt-6 md:text-6xl md:mt-0'>Hi, I&#39;m Derrick!</h1>
 					<p className='text-lg mt-4 mb-6 md:text-2xl'>
 						I am a 
-						<span className='font-semibold text-teal-600  hover:text-teal-300'>
+						<span className='teal-hover'>
 						{" "} Software Developer	{" "}
 						</span>
 						based in perth, WA. Driven by a passion to shape technology through innovation and entrepreneurial spirit.

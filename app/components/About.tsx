@@ -32,23 +32,33 @@ const About = () => {
             </h1>
             <p>
               I am a{" "}
-              <span className="font-bold">{" result-driven"}</span>,
-              <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" self-taught full stack"}</span> software developer
-              based in Perth, WA. After years as a Business Development and Project Manager in renewables, I&#39;ve gathered vast expertise. But it&#39;s in technology where my true passion lies, and I&#39;m driven to bring digital ideas to life.
+              <span className="teal-hover">{" highly motivated"}</span> and
+              <span className="teal-hover">{" dedicated"}</span> software developer
+              based in Perth, WA. Holding a B.Eng in Chemical Engineering from Curtin University, I&#39;m currently advancing my tech skills with a Diploma in Information Technology at South Metro Tafe.
+            </p>
+            <br />
+            <p>              
+              My journey in the renewable sector as a Business Development and Project Manager has been nothing short of enlightening. It was during this time that I discovered my true passion for tech. 
+              The world of digital innovation has captivated me, and I&#39;m wholeheartedly committed to transitioning my career to make a tangible impact in the tech landscape.              
+              {/* Having accumulated extensive experience as a Business Development and Project Manager in the renewable sector, I&#39;ve discovered a profound passion for technology. 
+              I am deeply committed to transitioning my career, with a goal to bring digital innovations to life in the tech landscape. */}
             </p>
             <br />
             <p>
-            I earned my BChe in Chemical Engineering from Curtin University and am now pursuing a Diploma of Information Technology at South Metro Tafe. My plan is to delve deeper into Computer Science and secure in software development role.            
+              My technical interests span across 
+              <span className='teal-hover'>{" web development"}</span>,
+              <span className='teal-hover'>{" data science"}</span>,
+              <span className='teal-hover'>{" machine learning"}</span>,
+              <span className='teal-hover'>{" UI/UX"}</span>, and
+              <span className='teal-hover'>{" DevOps"}</span>{". "}            
+              Beyond the realm of work, I find joy in indulging in movies, gaming, travel, and trading. 
+              However, what truly fascinates me is the boundless potential of the web3 space, where the future of technology is being shaped.
+              {/* I&#39;m especially intrigued by the potential of the web3 space. */}
             </p>
             <br />
             <p>
-            My technical interests span across web development, data science, machine learning, UI/UX, and DevOps. Outside of work, I enjoy movies, gaming, travel, and trading. I&#39;m especially intrigued by the potential of the web3 space.
-            </p>
-            <br />
-            <p>
-            <span className="font-bold text-teal-500">Life is fleeting, and pursuing a passion is invaluable.</span> {" "} I&#39;m grateful for the courage to pivot into a new industry and challenge myself. With an insatiable passion for technology and a constant drive to push boundaries, I am always on the lookout for fresh challenges and opportunities."
-              
+            <span className="font-bold text-teal-600">Life is fleeting, and pursuing a passion is invaluable.</span> {" "} I&#39;m grateful for the courage to pivot into a tech and challenge myself. 
+            With an insatiable passion for technology and a unwavering drive to push boundaries, I am always on the lookout for fresh challenges and exciting opportunities."              
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
@@ -58,7 +68,7 @@ const About = () => {
                 return (
                   <p
                     key={idx}
-                    className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold"
+                    className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-600 hover:bg-gray-300 rounded font-semibold"
                   >
                     {item}
                   </p>

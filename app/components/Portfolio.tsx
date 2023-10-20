@@ -8,27 +8,27 @@ import SlideUp from './SlideUp'
 
 const portfolios = [
   {
-    name: "Airbnb-Clone Web Application",
+    name: "Airbnb-Clone Web App",
     description:
-      "A precise clone of Airbnb's platform, showcasing my adeptness in web development and meticulous attention to detail.",
-    image: "/AirbnbClone_portfolio.png",
+      "A basic Airbnb replica showcasing full-stack development, UI/UX design, server-side rendering, database management, scalability, authentication, and listing management using Next.js, Tailwind CSS, and MongoDB",
+    image: "/airbnb_clone.png",
     github: "https://github.com/DerrickCGT/airbnb-dup",
     link: "https://clone-home-rent-project.vercel.app/",
   },
   {
-    name: "Portfolio 2",
-    description: "Portfolio 2 description",
-    image: "/abc.png",
-    github: "https://github.com/DerrickCGT/",
-    link: "https://github.com/DerrickCGT/",
+    name: "Malin Astro App",
+    description: "Astro App, a C# project, features AstroClient, AstroServer, and AstroMath(DLL) components, demonstrating IPC and WCF for client-server communication with multilingual UI and theme customization.",
+    image: "/astroapp.png",
+    github: "https://github.com/DerrickCGT/AstroApp",
+    link: "https://github.com/DerrickCGT/AstroApp",
   },
   {
-    name: "Web API",
+    name: "FlowerSales: API & Web App",
     description:
-      "Portfolio 2 description",
-    image: "/Coming_Soon.jpg",
-    github: "https://github.com/DerrickCGT/",
-    link: "https://github.com/DerrickCGT/",
+      "A learning project encompassing C# .NET Web API and a MongoDB-backed front-end for flower sales, showcasing MVC, JavaScript, and Bootstrap",
+    image: "/coming_soon.jpg",
+    github: "https://github.com/DerrickCGT/FlowerSalesAPI",
+    link: "https://github.com/DerrickCGT/FlowerSalesAPI",
   },
 ]
 

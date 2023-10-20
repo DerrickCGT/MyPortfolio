@@ -53,7 +53,7 @@ const Navbar = () => {
           <div className='flex items-center justify-between py-1'>
             <Link to="home" offset={-100}>
               <div className='md:py-4 md:block cursor-pointer'>
-                <h2 className='text-2xl font-bold'>
+                <h2 className='text-2xl font-bold hover:text-neutral-700'>
                   Derrick Choong
                 </h2>
               </div>
@@ -84,7 +84,7 @@ const Navbar = () => {
                   key={idx}
                   to={item.page}
                   className={
-                    "block lg:inline-block cursor-pointer text-neutral-900  hover:text-neutral-500 dark:text-neutral-100"
+                    "block lg:inline-block cursor-pointer text-neutral-900  hover:text-neutral-500 dark:text-neutral-100 dark:hover:text-neutral-400"
                   }
                   activeClass="active"
                   spy={true}
